@@ -5,6 +5,7 @@ services:
 branches:
   only:
   - develop
+  - failed_login_audit
   - "/^\\d+\\.\\d+\\.\\d+(-rc\\.\\d+)?$/"
 git:
   depth: 1
